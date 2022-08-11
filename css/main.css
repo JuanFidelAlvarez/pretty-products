@@ -1,0 +1,26 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+img {
+  width: 100%;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+ol li {
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
